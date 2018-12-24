@@ -1,0 +1,44 @@
+C:\3 курс\5 семестр\КА\lab3_wpf\ka_lb3_1c\ka_lb3_1c\bin\Debug\ka_lb3_1c.exe.config
+C:\3 курс\5 семестр\КА\lab3_wpf\ka_lb3_1c\ka_lb3_1c\bin\Debug\ka_lb3_1c.exe
+C:\3 курс\5 семестр\КА\lab3_wpf\ka_lb3_1c\ka_lb3_1c\bin\Debug\ka_lb3_1c.pdb
+C:\3 курс\5 семестр\КА\lab3_wpf\ka_lb3_1c\ka_lb3_1c\obj\Debug\ka_lb3_1c.csprojResolveAssemblyReference.cache
+C:\3 курс\5 семестр\КА\lab3_wpf\ka_lb3_1c\ka_lb3_1c\obj\Debug\MainWindow.g.cs
+C:\3 курс\5 семестр\КА\lab3_wpf\ka_lb3_1c\ka_lb3_1c\obj\Debug\App.g.cs
+C:\3 курс\5 семестр\КА\lab3_wpf\ka_lb3_1c\ka_lb3_1c\obj\Debug\ka_lb3_1c_MarkupCompile.cache
+C:\3 курс\5 семестр\КА\lab3_wpf\ka_lb3_1c\ka_lb3_1c\obj\Debug\ka_lb3_1c_MarkupCompile.lref
+C:\3 курс\5 семестр\КА\lab3_wpf\ka_lb3_1c\ka_lb3_1c\obj\Debug\MainWindow.baml
+C:\3 курс\5 семестр\КА\lab3_wpf\ka_lb3_1c\ka_lb3_1c\obj\Debug\ka_lb3_1c.g.resources
+C:\3 курс\5 семестр\КА\lab3_wpf\ka_lb3_1c\ka_lb3_1c\obj\Debug\ka_lb3_1c.Properties.Resources.resources
+C:\3 курс\5 семестр\КА\lab3_wpf\ka_lb3_1c\ka_lb3_1c\obj\Debug\ka_lb3_1c.csproj.GenerateResource.Cache
+C:\3 курс\5 семестр\КА\lab3_wpf\ka_lb3_1c\ka_lb3_1c\obj\Debug\ka_lb3_1c.exe
+C:\3 курс\5 семестр\КА\lab3_wpf\ka_lb3_1c\ka_lb3_1c\obj\Debug\ka_lb3_1c.pdb
+E:\ka_lb3_1c\ka_lb3_1c\bin\Debug\ka_lb3_1c.exe.config
+E:\ka_lb3_1c\ka_lb3_1c\bin\Debug\ka_lb3_1c.exe
+E:\ka_lb3_1c\ka_lb3_1c\bin\Debug\ka_lb3_1c.pdb
+E:\ka_lb3_1c\ka_lb3_1c\obj\Debug\ka_lb3_1c.csprojAssemblyReference.cache
+E:\ka_lb3_1c\ka_lb3_1c\obj\Debug\MainWindow.g.cs
+E:\ka_lb3_1c\ka_lb3_1c\obj\Debug\App.g.cs
+E:\ka_lb3_1c\ka_lb3_1c\obj\Debug\ka_lb3_1c_MarkupCompile.cache
+E:\ka_lb3_1c\ka_lb3_1c\obj\Debug\ka_lb3_1c_MarkupCompile.lref
+E:\ka_lb3_1c\ka_lb3_1c\obj\Debug\MainWindow.baml
+E:\ka_lb3_1c\ka_lb3_1c\obj\Debug\ka_lb3_1c.g.resources
+E:\ka_lb3_1c\ka_lb3_1c\obj\Debug\ka_lb3_1c.Properties.Resources.resources
+E:\ka_lb3_1c\ka_lb3_1c\obj\Debug\ka_lb3_1c.csproj.GenerateResource.cache
+E:\ka_lb3_1c\ka_lb3_1c\obj\Debug\ka_lb3_1c.csproj.CoreCompileInputs.cache
+E:\ka_lb3_1c\ka_lb3_1c\obj\Debug\ka_lb3_1c.exe
+E:\ka_lb3_1c\ka_lb3_1c\obj\Debug\ka_lb3_1c.pdb
+E:\ka_lb3(working)\ka_lb3_1c\bin\Debug\ka_lb3.exe.config
+E:\ka_lb3(working)\ka_lb3_1c\bin\Debug\ka_lb3.exe
+E:\ka_lb3(working)\ka_lb3_1c\bin\Debug\ka_lb3.pdb
+E:\ka_lb3(working)\ka_lb3_1c\obj\Debug\ka_lb3_1c.csprojAssemblyReference.cache
+E:\ka_lb3(working)\ka_lb3_1c\obj\Debug\MainWindow.g.cs
+E:\ka_lb3(working)\ka_lb3_1c\obj\Debug\App.g.cs
+E:\ka_lb3(working)\ka_lb3_1c\obj\Debug\ka_lb3_MarkupCompile.cache
+E:\ka_lb3(working)\ka_lb3_1c\obj\Debug\ka_lb3_MarkupCompile.lref
+E:\ka_lb3(working)\ka_lb3_1c\obj\Debug\MainWindow.baml
+E:\ka_lb3(working)\ka_lb3_1c\obj\Debug\ka_lb3.g.resources
+E:\ka_lb3(working)\ka_lb3_1c\obj\Debug\ka_lb3.Properties.Resources.resources
+E:\ka_lb3(working)\ka_lb3_1c\obj\Debug\ka_lb3_1c.csproj.GenerateResource.cache
+E:\ka_lb3(working)\ka_lb3_1c\obj\Debug\ka_lb3_1c.csproj.CoreCompileInputs.cache
+E:\ka_lb3(working)\ka_lb3_1c\obj\Debug\ka_lb3.exe
+E:\ka_lb3(working)\ka_lb3_1c\obj\Debug\ka_lb3.pdb
