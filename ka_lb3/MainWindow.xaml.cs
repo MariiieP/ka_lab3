@@ -173,17 +173,93 @@ namespace ka_lb3
 
         public async Task CalculateAnt()//ant
         {
-        }
-       
+            ClearTextBox();//если уже что-то писали, замазываем белым
+            cts[1].Cancel();
+            cts[1] = new CancellationTokenSource();
+            progressAC.Visibility = Visibility.Visible;
+            int alpha;
+            if (!Int32.TryParse(textB_alpha.Text, out alpha))
+            {
+                textB_alpha.Background = Brushes.Coral;
+                errorTB.Push(textB_alpha);
+                return;
+            }
+            int beta;
+            if (!Int32.TryParse(textB_beta.Text, out beta))
+            {
+                textB_beta.Background = Brushes.Coral;
+                errorTB.Push(textB_beta);
+                return;
+            }
+            double rho;
+            if (!Double.TryParse(textB_rho.Text, out rho))
+            {
+                textB_rho.Background = Brushes.Coral;
+                errorTB.Push(textB_rho);
+                return;
+            }
+            double Q;
+            if (!Double.TryParse(textB_Q.Text, out Q))
+            {
+                textB_Q.Background = Brushes.Coral;
+                errorTB.Push(textB_Q);
+                return;
+            }
+            int numAnts;
+            if (!Int32.TryParse(textB_nAnts.Text, out numAnts))
+            {
+                textB_nAnts.Background = Brushes.Coral;
+                errorTB.Push(textB_nAnts);
+                return;
+            }
+            int maxTime;
+            if (!Int32.TryParse(textB_time.Text, out maxTime))
+            {
+                textB_time.Background = Brushes.Coral;
+                errorTB.Push(textB_time);
+                return;
+            }
+            Ant algorithm = null;
+            Stopwatch time = null;
+            int[] solve = null;
+            Task thisTask = (Task.Run(() =>
+            {
+                algorithm = new Ant(alpha, beta, rho, Q, numAnts, maxTime);
+                time = new Stopwatch();
+                time.Start();
+                solve = algorithm.Solution(cities);
+                time.Stop();
+            }));
+            tasks.Enqueue(thisTask);
+            await Task.Run(() =>
+            {
+                while (true)
+                {
 
-        private void button_CalcAC_Click(object sender, RoutedEventArgs e)
-        {
-            CalculateAnt();
+                    if (cts[1].Token.IsCancellationRequested || thisTask.IsCompleted)
+                    {
+                        break;
+                    }
+                }
+            });
+            if (solve != null)
+            {
+                DrawLines(solve, graphs[1]);
+                timeAC.Content = time.ElapsedMilliseconds.ToString();
+                lengthAC.Content = algorithm.TotalDistance.ToString("F2");
+            }
+            progressAC.Visibility = Visibility.Hidden;
         }
 
-        private void button_CalcBF_Click(object sender, RoutedEventArgs e)
+
+        private async void button_CalcAC_Click(object sender, RoutedEventArgs e)
         {
-            CalculateBust();
+            await CalculateAnt();
+        }
+
+        private async void button_CalcBF_Click(object sender, RoutedEventArgs e)
+        {
+            await CalculateBust();
         }
     }
 }

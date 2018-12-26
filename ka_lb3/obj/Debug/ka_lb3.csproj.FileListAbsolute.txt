@@ -13,3 +13,10 @@ E:\ka_lb3(working)\ka_lb3\obj\Debug\ka_lb3.g.resources
 E:\ka_lb3(working)\ka_lb3\obj\Debug\ka_lb3.Properties.Resources.resources
 E:\ka_lb3(working)\ka_lb3\obj\Debug\ka_lb3.csproj.GenerateResource.cache
 E:\ka_lb3(working)\ka_lb3\obj\Debug\ka_lb3.csproj.CoreCompileInputs.cache
+E:\ka3-без муравьиного\ka_lb3(working)\ka_lb3\obj\Debug\ka_lb3.csprojAssemblyReference.cache
+E:\ka3-без муравьиного\ka_lb3(working)\ka_lb3\obj\Debug\MainWindow.g.cs
+E:\ka3-без муравьиного\ka_lb3(working)\ka_lb3\obj\Debug\App.g.cs
+E:\ka3-без муравьиного\ka_lb3(working)\ka_lb3\obj\Debug\ka_lb3_MarkupCompile.cache
+E:\ka3-без муравьиного\ka_lb3(working)\ka_lb3\obj\Debug\ka_lb3_MarkupCompile.lref
+E:\ka3-без муравьиного\ka_lb3(working)\ka_lb3\obj\Debug\ka_lb3.exe
+E:\ka3-без муравьиного\ka_lb3(working)\ka_lb3\obj\Debug\ka_lb3.pdb
